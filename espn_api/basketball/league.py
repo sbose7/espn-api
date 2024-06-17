@@ -174,7 +174,7 @@ class League(BaseLeague):
         return box_data
 
     def player_info(self, name: str = None, playerId: Union[int, list] = None) -> Union[Player, List[Player]]:
-        ''' Returns Player class if name found '''
+      
 
         if name:
             playerId = self.player_map.get(name)
